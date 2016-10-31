@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+    <title>learning directives</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css" >  
+        
+    </head>
+    
+    <body ng-app="appName">
+    
+        <div ng-controller="appCtrl">
+          Header value from controller:{{header}} 
+            <sample-header></sample-header>
+        </div>
+        <h1> playing with custom directives </h1>
+        <person-form> </person-form>
+        <person-table></person-table>
+                
+            
+        <script type="text/javascript" src="/node_modules/angular/angular.js"></script>  
+        <script type="text/javascript" src="/js/app.js"></script>
+        <script type="text/javascript" src="/js/controllers/appCtrl.js"></script>
+        <script type="text/javascript" src="/js/controllers/personCtrl.js"></script>
+        <script type="text/javascript" src="/js/directives/first.js"></script>
+        <script type="text/javascript" src="/js/directives/personForm.js"></script>
+        <script type="text/javascript" src="/js/directives/personTable.js"></script>
+        
+    
+    </body>
+</html>
